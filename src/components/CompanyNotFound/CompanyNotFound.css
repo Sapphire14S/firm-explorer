@@ -1,0 +1,23 @@
+.notfound-card{
+  width:600px;
+  margin:80px auto;
+  padding:40px;
+  background:white;
+  border-radius:12px;
+  text-align:center;
+  box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+.notfound-card h2{
+  margin-bottom:15px;
+}
+
+.hint{
+  margin-top:15px;
+  color:#666;
+}
+
+.examples{
+  margin-top:10px;
+  font-weight:600;
+}
