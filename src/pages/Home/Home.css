@@ -1,5 +1,5 @@
 .home-container {
-  height: 90vh;
+  min-height: calc(100vh - 100px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,7 +7,7 @@
 
 .search-box {
   font-size: xx-large;
-  font-family: 'monospace';
+  font-family: 'Bruno Ace SC';
   background: white;
   padding: 50px 60px;
   border-radius: 12px;
@@ -16,5 +16,21 @@
 }
 
 .search-box h1 {
+
   margin-bottom: 30px;
+}
+
+
+@media (max-width: 768px) {
+  .search-box {
+    padding: 40px 24px;
+  }
+
+  .search-box h1 {
+    font-size: 2.2rem;
+  }
+
+  .tagline {
+    font-size: 1rem;
+  }
 }

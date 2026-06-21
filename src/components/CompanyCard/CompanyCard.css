@@ -1,33 +1,40 @@
 .company-card {
-  width: 600px;
+  width: min(90%, 700px);
   margin: 40px auto;
   padding: 30px;
   border-radius: 12px;
   background: white;
   text-align: center;
-  box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+
+  transition: transform 0.3s ease;
+}
+
+.company-name {
+  font-family: 'Faculty Glyphic', sans-serif;
+  font-size: xx-large;
+
+  margin-bottom: 16px;
 }
 
 .company-logo {
-  width: 90px;
-  margin-bottom: 15px;
+  width: 100px;
+  height: 100px;
+
+  object-fit: contain;
+  margin-bottom: 20px;
 }
 
 .company-description {
-  margin-top: 15px;
-  line-height: 1.6;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
+
+  color: #333;
+  margin-top: 12px;
 }
 
 .links {
-  /* background:white;
-  padding:20px;
-  border-radius:12px;
-  box-shadow:0 8px 20px rgba(0,0,0,0.1);
-
-  display:flex;
-  flex-direction:column;
-  gap:10px; */
-
   margin-top: 25px;
   display: flex;
   justify-content: center;
@@ -42,8 +49,24 @@
   text-decoration: none;
   color: black;
   font-size: 14px;
+  transition: all 0.25s ease;
 }
 
 .links a:hover {
-  background: #e6e6e6;
+  background: #e8e8e8;
+
+}
+
+@media (max-width: 768px) {
+  .company-card {
+    padding: 24px;
+  }
+
+  .company-name {
+    font-size: 1.8rem;
+  }
+
+  .company-description {
+    font-size: 0.95rem;
+  }
 }

@@ -12,10 +12,10 @@ function SearchBar() {
   const navigate = useNavigate();
 
   const funMessages = [
-    "🤔 Searching for invisible companies?",
-    "😅 You forgot to type a company!",
-    "> Try Google, OpenAI, or Microsoft!",
-    "🧐 Type something first!"
+    ">> Searching for invisible companies?",
+    ">> You forgot to type a company!",
+    ">> Try Google, OpenAI, or Microsoft!",
+    ">> Type something first!"
   ];
 
   const handleChange = (e) => {

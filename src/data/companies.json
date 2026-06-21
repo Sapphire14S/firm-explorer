@@ -1,58 +1,250 @@
 [
-  { "name": "Google", "domain": "google.com", "industry": "Technology", "founded": 1998 },
-  { "name": "Microsoft", "domain": "microsoft.com", "industry": "Technology", "founded": 1975 },
-  { "name": "Apple", "domain": "apple.com", "industry": "Technology", "founded": 1976 },
-  { "name": "Amazon", "domain": "amazon.com", "industry": "E-commerce", "founded": 1994 },
-  { "name": "Meta", "domain": "meta.com", "industry": "Social Media", "founded": 2004 },
-  { "name": "Netflix", "domain": "netflix.com", "industry": "Streaming", "founded": 1997 },
-  { "name": "Tesla", "domain": "tesla.com", "industry": "Automotive", "founded": 2003 },
-
-  { "name": "OpenAI", "domain": "openai.com", "industry": "Artificial Intelligence", "founded": 2015 },
-  { "name": "Anthropic", "domain": "anthropic.com", "industry": "Artificial Intelligence", "founded": 2021 },
-  { "name": "DeepMind", "domain": "deepmind.com", "industry": "Artificial Intelligence", "founded": 2010 },
-  { "name": "Stability AI", "domain": "stability.ai", "industry": "Artificial Intelligence", "founded": 2019 },
-
-  { "name": "Stripe", "domain": "stripe.com", "industry": "FinTech", "founded": 2010 },
-  { "name": "PayPal", "domain": "paypal.com", "industry": "FinTech", "founded": 1998 },
-  { "name": "Square", "domain": "squareup.com", "industry": "FinTech", "founded": 2009 },
-  { "name": "Adyen", "domain": "adyen.com", "industry": "FinTech", "founded": 2006 },
-
-  { "name": "Uber", "domain": "uber.com", "industry": "Transportation", "founded": 2009 },
-  { "name": "Lyft", "domain": "lyft.com", "industry": "Transportation", "founded": 2012 },
-  { "name": "Airbnb", "domain": "airbnb.com", "industry": "Travel", "founded": 2008 },
-  { "name": "Booking.com", "domain": "booking.com", "industry": "Travel", "founded": 1996 },
-
-  { "name": "Nvidia", "domain": "nvidia.com", "industry": "Semiconductors", "founded": 1993 },
-  { "name": "Intel", "domain": "intel.com", "industry": "Semiconductors", "founded": 1968 },
-  { "name": "AMD", "domain": "amd.com", "industry": "Semiconductors", "founded": 1969 },
-  { "name": "TSMC", "domain": "tsmc.com", "industry": "Semiconductors", "founded": 1987 },
-
-  { "name": "Adobe", "domain": "adobe.com", "industry": "Software", "founded": 1982 },
-  { "name": "Oracle", "domain": "oracle.com", "industry": "Enterprise Software", "founded": 1977 },
-  { "name": "IBM", "domain": "ibm.com", "industry": "Technology", "founded": 1911 },
-  { "name": "Salesforce", "domain": "salesforce.com", "industry": "SaaS", "founded": 1999 },
-  { "name": "Atlassian", "domain": "atlassian.com", "industry": "SaaS", "founded": 2002 },
-  { "name": "ServiceNow", "domain": "servicenow.com", "industry": "SaaS", "founded": 2004 },
-
-  { "name": "Snowflake", "domain": "snowflake.com", "industry": "Data Cloud", "founded": 2012 },
-  { "name": "Databricks", "domain": "databricks.com", "industry": "Data Platform", "founded": 2013 },
-  { "name": "MongoDB", "domain": "mongodb.com", "industry": "Database", "founded": 2007 },
-  { "name": "Elastic", "domain": "elastic.co", "industry": "Search Software", "founded": 2012 },
-
-  { "name": "Jane Street", "domain": "janestreet.com", "industry": "Quant Trading", "founded": 2000 },
-  { "name": "Citadel", "domain": "citadel.com", "industry": "Hedge Fund", "founded": 1990 },
-  { "name": "Two Sigma", "domain": "twosigma.com", "industry": "Quant Trading", "founded": 2001 },
-  { "name": "Hudson River Trading", "domain": "hudsonrivertrading.com", "industry": "Quant Trading", "founded": 2002 },
-  { "name": "IMC Trading", "domain": "imc.com", "industry": "Quant Trading", "founded": 1989 },
-  { "name": "Jump Trading", "domain": "jumptrading.com", "industry": "Quant Trading", "founded": 1999 },
-
-  { "name": "Palantir", "domain": "palantir.com", "industry": "Data Analytics", "founded": 2003 },
-  { "name": "Zoom", "domain": "zoom.us", "industry": "Communication", "founded": 2011 },
-  { "name": "Slack", "domain": "slack.com", "industry": "Communication", "founded": 2013 },
-  { "name": "Notion", "domain": "notion.so", "industry": "Productivity Software", "founded": 2016 },
-
-  { "name": "Zoho", "domain": "zoho.com", "industry": "SaaS", "founded": 1996 },
-  { "name": "Freshworks", "domain": "freshworks.com", "industry": "SaaS", "founded": 2010 },
-  { "name": "Razorpay", "domain": "razorpay.com", "industry": "FinTech", "founded": 2014 },
-  { "name": "Flipkart", "domain": "flipkart.com", "industry": "E-commerce", "founded": 2007 }
+{
+"name": "Google",
+"domain": "google.com",
+"industry": "Technology",
+"founded": 1998,
+"headquarters": "Mountain View, California, USA",
+"website": "https://google.com"
+},
+{
+"name": "Microsoft",
+"domain": "microsoft.com",
+"industry": "Technology",
+"founded": 1975,
+"headquarters": "Redmond, Washington, USA",
+"website": "https://microsoft.com"
+},
+{
+"name": "Apple",
+"domain": "apple.com",
+"industry": "Technology",
+"founded": 1976,
+"headquarters": "Cupertino, California, USA",
+"website": "https://apple.com"
+},
+{
+"name": "Amazon",
+"domain": "amazon.com",
+"industry": "E-Commerce & Cloud Computing",
+"founded": 1994,
+"headquarters": "Seattle, Washington, USA",
+"website": "https://amazon.com"
+},
+{
+"name": "Meta",
+"domain": "meta.com",
+"industry": "Social Media & Technology",
+"founded": 2004,
+"headquarters": "Menlo Park, California, USA",
+"website": "https://meta.com"
+},
+{
+"name": "Netflix",
+"domain": "netflix.com",
+"industry": "Streaming",
+"founded": 1997,
+"headquarters": "Los Gatos, California, USA",
+"website": "https://netflix.com"
+},
+{
+"name": "Tesla",
+"domain": "tesla.com",
+"industry": "Automotive & Energy",
+"founded": 2003,
+"headquarters": "Austin, Texas, USA",
+"website": "https://tesla.com"
+},
+{
+"name": "OpenAI",
+"domain": "openai.com",
+"industry": "Artificial Intelligence",
+"founded": 2015,
+"headquarters": "San Francisco, California, USA",
+"website": "https://openai.com"
+},
+{
+"name": "Anthropic",
+"domain": "anthropic.com",
+"industry": "Artificial Intelligence",
+"founded": 2021,
+"headquarters": "San Francisco, California, USA",
+"website": "https://anthropic.com"
+},
+{
+"name": "DeepMind",
+"domain": "deepmind.google",
+"industry": "Artificial Intelligence",
+"founded": 2010,
+"headquarters": "London, United Kingdom",
+"website": "https://deepmind.google"
+},
+{
+"name": "xAI",
+"domain": "x.ai",
+"industry": "Artificial Intelligence",
+"founded": 2023,
+"headquarters": "San Francisco, California, USA",
+"website": "https://x.ai"
+},
+{
+"name": "Perplexity",
+"domain": "perplexity.ai",
+"industry": "Artificial Intelligence",
+"founded": 2022,
+"headquarters": "San Francisco, California, USA",
+"website": "https://perplexity.ai"
+},
+{
+"name": "Cohere",
+"domain": "cohere.com",
+"industry": "Artificial Intelligence",
+"founded": 2019,
+"headquarters": "Toronto, Ontario, Canada",
+"website": "https://cohere.com"
+},
+{
+"name": "Mistral AI",
+"domain": "mistral.ai",
+"industry": "Artificial Intelligence",
+"founded": 2023,
+"headquarters": "Paris, France",
+"website": "https://mistral.ai"
+},
+{
+"name": "NVIDIA",
+"domain": "nvidia.com",
+"industry": "Semiconductors",
+"founded": 1993,
+"headquarters": "Santa Clara, California, USA",
+"website": "https://nvidia.com"
+},
+{
+"name": "AMD",
+"domain": "amd.com",
+"industry": "Semiconductors",
+"founded": 1969,
+"headquarters": "Santa Clara, California, USA",
+"website": "https://amd.com"
+},
+{
+"name": "Intel",
+"domain": "intel.com",
+"industry": "Semiconductors",
+"founded": 1968,
+"headquarters": "Santa Clara, California, USA",
+"website": "https://intel.com"
+},
+{
+"name": "TSMC",
+"domain": "tsmc.com",
+"industry": "Semiconductors",
+"founded": 1987,
+"headquarters": "Hsinchu, Taiwan",
+"website": "https://tsmc.com"
+},
+{
+"name": "Broadcom",
+"domain": "broadcom.com",
+"industry": "Semiconductors",
+"founded": 1961,
+"headquarters": "Palo Alto, California, USA",
+"website": "https://broadcom.com"
+},
+{
+"name": "Qualcomm",
+"domain": "qualcomm.com",
+"industry": "Semiconductors",
+"founded": 1985,
+"headquarters": "San Diego, California, USA",
+"website": "https://qualcomm.com"
+},
+{
+"name": "Stripe",
+"domain": "stripe.com",
+"industry": "FinTech",
+"founded": 2010,
+"headquarters": "South San Francisco, California, USA",
+"website": "https://stripe.com"
+},
+{
+"name": "PayPal",
+"domain": "paypal.com",
+"industry": "FinTech",
+"founded": 1998,
+"headquarters": "San Jose, California, USA",
+"website": "https://paypal.com"
+},
+{
+"name": "Adyen",
+"domain": "adyen.com",
+"industry": "FinTech",
+"founded": 2006,
+"headquarters": "Amsterdam, Netherlands",
+"website": "https://adyen.com"
+},
+{
+"name": "Razorpay",
+"domain": "razorpay.com",
+"industry": "FinTech",
+"founded": 2014,
+"headquarters": "Bengaluru, Karnataka, India",
+"website": "https://razorpay.com"
+},
+{
+"name": "PhonePe",
+"domain": "phonepe.com",
+"industry": "FinTech",
+"founded": 2015,
+"headquarters": "Bengaluru, Karnataka, India",
+"website": "https://phonepe.com"
+},
+{
+"name": "Groww",
+"domain": "groww.in",
+"industry": "FinTech",
+"founded": 2016,
+"headquarters": "Bengaluru, Karnataka, India",
+"website": "https://groww.in"
+},
+{
+"name": "Jane Street",
+"domain": "janestreet.com",
+"industry": "Quantitative Trading",
+"founded": 2000,
+"headquarters": "New York City, New York, USA",
+"website": "https://janestreet.com"
+},
+{
+"name": "Citadel",
+"domain": "citadel.com",
+"industry": "Hedge Fund",
+"founded": 1990,
+"headquarters": "Miami, Florida, USA",
+"website": "https://citadel.com"
+},
+{
+"name": "Citadel Securities",
+"domain": "citadelsecurities.com",
+"industry": "Market Making",
+"founded": 2002,
+"headquarters": "Miami, Florida, USA",
+"website": "https://citadelsecurities.com"
+},
+{
+"name": "Hudson River Trading",
+"domain": "hudsonrivertrading.com",
+"industry": "Quantitative Trading",
+"founded": 2002,
+"headquarters": "New York City, New York, USA",
+"website": "https://hudsonrivertrading.com"
+},
+{
+"name": "Two Sigma",
+"domain": "twosigma.com",
+"industry": "Quantitative Trading",
+"founded": 2001,
+"headquarters": "New York City, New York, USA",
+"website": "https://twosigma.com"
+}
 ]

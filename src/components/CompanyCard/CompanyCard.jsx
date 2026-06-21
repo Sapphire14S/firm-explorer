@@ -45,29 +45,29 @@ function CompanyCard({ name }) {
 
       <img src={logoUrl} alt={name} className="company-logo" />
 
-      <h2>{name}</h2>
+      <h2 className="company-name">{name}</h2>
 
       {info && <p className="company-description">{info.extract}</p>}
 
       <div className="links">
 
-        <a href={website} target="_blank">🌐 Website</a>
+        <a href={website} target="_blank">Website</a>
 
         {info && (
           <a href={info.content_urls.desktop.page} target="_blank">
-            📚 Wikipedia
+            Wikipedia
           </a>
         )}
 
-        <a href={linkedin} target="_blank">💼 LinkedIn</a>
+        <a href={linkedin} target="_blank">LinkedIn</a>
 
-        <a href={github} target="_blank">💻 GitHub</a>
+        <a href={github} target="_blank">GitHub</a>
 
-        <a href={youtube} target="_blank">▶️ YouTube</a>
+        <a href={youtube} target="_blank">YouTube</a>
 
-        <a href={instagram} target="_blank">📸 Instagram</a>
+        <a href={instagram} target="_blank">Instagram</a>
 
-        <a href={careers} target="_blank">🚀 Careers</a>
+        <a href={careers} target="_blank">Careers</a>
 
       </div>
 

@@ -1,23 +1,61 @@
-.notfound-card{
-  width:600px;
-  margin:80px auto;
-  padding:40px;
-  background:white;
-  border-radius:12px;
-  text-align:center;
-  box-shadow:0 10px 25px rgba(0,0,0,0.1);
+.notfound-card {
+  width: min(90%, 700px);
+  margin: 80px auto;
+  padding: 40px;
+  background: white;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
-.notfound-card h2{
-  margin-bottom:15px;
+
+.notfound-icon {
+  font-size: 3rem;
+
+  margin-bottom: 12px;
 }
 
-.hint{
-  margin-top:15px;
-  color:#666;
+.notfound-card h2 {
+  margin-bottom: 16px;
+
+  font-size: 2rem;
 }
 
-.examples{
-  margin-top:10px;
-  font-weight:600;
+.notfound-message {
+  line-height: 1.7;
+
+  color: #333;
+}
+
+.hint {
+  margin-top: 20px;
+
+  color: #666;
+}
+
+.examples {
+  margin-top: 16px;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.examples span {
+  padding: 8px 14px;
+  background: #f3f3f3;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .notfound-card {
+    padding: 28px;
+  }
+
+  .notfound-card h2 {
+    font-size: 1.6rem;
+  }
 }

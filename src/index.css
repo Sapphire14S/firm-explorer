@@ -1,62 +1,106 @@
-/* body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: linear-gradient(135deg,#6897a7,#d5d7dc);
-} */
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Bruno+Ace+SC&family=Cinzel+Decorative:wght@400;700;900&family=Codystar:wght@300;400&family=Faculty+Glyphic&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Major+Mono+Display&family=Mea+Culpa&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Notable&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Science+Gothic:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
 
-/* --------------------------------------------------------------------------------------------- */
-/* 1. The "Soft Ambient Glow" (Mesh Gradient)
-Instead of a straight line, this uses radial gradients to create "organic" blobs of color that feel high-end and modern. */
-/* looks good will consider */
-/* will work better in dark mode */
-body {
+
+* {
   margin: 0;
-  font-family: Arial, sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  caret-color: transparent;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
   min-height: 100vh;
   background-color: #000000;
-  background-image: 
+  background-image:
     radial-gradient(at 0% 0%, hsla(196, 100%, 47%, 0.5) 0px, transparent 50%),
     radial-gradient(at 100% 0%, hsla(310, 100%, 52%, 0.4) 0px, transparent 50%),
     radial-gradient(at 100% 100%, hsla(71, 100%, 50%, 0.3) 0px, transparent 50%),
     radial-gradient(at 0% 100%, rgb(129, 24, 24) 0px, transparent 50%);
 }
-/* --------------------------------------------------------------------------------------------- */
 
 
-/* 2. The "Glass Frost" Texture
-Adding a subtle "noise" or grain layer over your gradient makes it look like physical material rather than a digital screen. */
-/* body {
-  margin: 0;
-  background: linear-gradient(135deg, #00bfff, #ccbd13);
-  position: relative;
-} */
-
-/* body::before {
-  content: "";
-  position: fixed;
-  top: 0; left: 0; width: 100%; height: 100%; */
-  /* opacity: 0.04; Control the intensity of the grain */
-  /* pointer-events: none;
-  background-image: url("https://grainy-gradients.vercel.app/noise.svg");
-} */
-/* ---------------------------------------------- */
-
-/* 3. Animated "Slow Flow"
-Make the background feel alive by shifting the gradient focus slowly over time. This is subtle enough not to distract but adds a premium feel. */
-/* body {
-  margin: 0;
-  background: linear-gradient(-45deg, #3ad406, #8baeb9, #d5d7dc, #f0f1f3);
-  background-size: 400% 400%;
-  animation: gradientFlow 3s ease infinite;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-@keyframes gradientFlow {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-} */
+button,
+input {
+  font-family: inherit;
+}
 
-.dark{
-  background:#121212;
-  color:white;
+.dark {
+  background: #121212;
+  color: white;
+}
+
+::selection {
+  background: rgba(176, 255, 79, 0.85);
+  color: #111;
+}
+
+::-moz-selection {
+  background: rgba(176, 255, 79, 0.85);
+  color: #111;
+}
+
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg,
+      #00c8ff,
+      #d946ef,
+      #b0ff4f);
+
+  border-radius: 999px;
+
+  border: 2px solid transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  opacity: 0.9;
+}
+
+/* Tablets */
+@media (max-width: 1024px) {
+  html {
+    font-size: 95%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  html {
+    font-size: 90%;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  #root {
+    width: 100%;
+  }
+}
+
+/* Small Phones */
+@media (max-width: 480px) {
+  html {
+    font-size: 85%;
+  }
 }
