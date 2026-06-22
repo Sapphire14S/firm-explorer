@@ -9,7 +9,7 @@ function App() {
   useEffect(() => {
 
   console.log(
-    "%c👋 Hello Developer!",
+    "%cHello Developer!",
     "font-size:20px;color:#4CAF50;font-weight:bold;"
   );
 

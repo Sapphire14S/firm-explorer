@@ -48,7 +48,7 @@
 
 .links a {
   padding: 8px 14px;
-  background: #f3f3f3;
+  background: #dad6d6;
   border-radius: 6px;
   text-decoration: none;
   color: black;
@@ -57,9 +57,13 @@
 }
 
 .links a:hover {
-  background: #e8e8e8;
-
+  color: white;
+  background: #000000;
 }
+
+/* .links:active {
+  background-color: #333;
+} */
 
 @media (max-width: 768px) {
   .company-card {
